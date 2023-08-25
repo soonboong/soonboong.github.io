@@ -50,6 +50,9 @@ const readJSON = (event) => {
       if (baseURL[baseURL.length - 1] !== "/") {
         baseURL += "/";
       }
+      if (!confirm(`BaseURL: ${baseURL}\n올바른지 확인해주세요`)) {
+        return 0;
+      }
       index = 0;
       counterElement.removeAttribute("hidden");
       episodeElement.removeAttribute("hidden");
