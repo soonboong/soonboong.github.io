@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series viewer</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="ui-container top-ui">
+        <input id="file" type="file">
+        <span id="counter" hidden></span>
+        <span id="episode" hidden></span>
+    </div>
+    <div class="ui-container bottom-ui">
+        <span id="prevButton" hidden>◀</span>
+        <span id="nextButton" hidden>▶</span>
+    </div>
+    <div id="toggle" class="toggle">≡</div>
+    <iframe id="content" class="content-iframe" frameborder="0" hidden></iframe>
+</body>
+
+</html>

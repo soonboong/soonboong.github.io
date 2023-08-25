@@ -1,0 +1,42 @@
+#add {
+    user-select: none;
+    -webkit-user-select: none;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2em;
+}
+
+.info-input {
+    display: flex;
+}
+
+.info-input > input {
+    flex-grow: 1;
+}
+
+.editor {
+    margin-top: 3em;
+}
+
+.list-element {
+    display: flex;
+    margin-top: 5px;
+}
+
+.ep-input {
+    width: 200px;
+}
+
+.link-input {
+    margin-left: 1em;
+    flex-grow: 1;
+}
+
+.input-hint > span:first-child {
+    display: inline-block;
+    width: 200px;
+}
+
+.input-hint > span:nth-child(2) {
+    margin-left: 1em;
+}
